@@ -17,8 +17,8 @@ if (process.env.NODE_ENV === 'dev') {
 } else {
     // urlDB = 'mongodb+srv://kevin:Pruebas123@cafe-htqjd.mongodb.net/test?retryWrites=true&w=majority';
 
-    urlDB = 'mongodb://kevin:Pruebas123@ds331145.mlab.com:31145/heroku_28jfstht';
+    urlDB = 'mongodb://cafe-user:Pruebas123@ds331145.mlab.com:31145/heroku_28jfstht';
     // urlDB = process.env.MONGO_URI;
 }
 
-process.env.urlDB = urlDB;
+process.env.URLDB = urlDB;

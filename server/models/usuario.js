@@ -13,16 +13,16 @@ let usuarioSchema = new Schema({
     },
     email: {
         type: String,
-        require: [true, 'El correo es necesario'],
+        required: [true, 'El correo es necesario'],
         unique: true
     },
     password: {
         type: String,
-        require: [true, 'La constraseña es obligatoria']
+        required: [true, 'La constraseña es obligatoria']
     },
     img: {
         type: String,
-        require: false
+        required: false
     }, // no es obligatoria
     role: {
         type: String,

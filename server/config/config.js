@@ -35,6 +35,7 @@ if (process.env.NODE_ENV === 'dev') {
     // urlDB = 'mongodb://cafe-user:Pruebas123@ds331145.mlab.com:31145/heroku_28jfstht';
     urlDB = process.env.MONGO_URI;
     //se crea en heroku process.env.MONGO_URI
+    // Para Listar heroku config
     //heroku config:set MONGO_URI="mongodb://cafe-user:Pruebas123@ds331145.mlab.com:31145/heroku_28jfstht"  
     //y asi ya no se ve en el github la cadena de conexion a BD
 }
